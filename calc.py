@@ -110,8 +110,12 @@ class CalcGUI:
 
         @param: num - str
         """
-        if num == "1":
-            self.entered_number = "1"
+        switch (num) {
+            case "0":
+            
+        }
+        if num == "0":
+            self.entered_number = num
             self.entry.delete(0, END)
             self.entry.insert(0, num)
   
