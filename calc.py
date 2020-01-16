@@ -152,6 +152,7 @@ class CalcGUI:
             self.entry.insert(0, num)
   
 root = Tk() # creates root window
+root.geometry("200x400")
 calcGUI = CalcGUI(root) # GUI implementation takes in Tkinter instance
 root.mainloop() # start application
 
