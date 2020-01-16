@@ -110,11 +110,43 @@ class CalcGUI:
 
         @param: num - str
         """
-        switch (num) {
-            case "0":
-            
-        }
         if num == "0":
+            self.entered_number = num
+            self.entry.delete(0, END)
+            self.entry.insert(0, num)
+        if num == "1":
+            self.entered_number = num
+            self.entry.delete(0, END)
+            self.entry.insert(0, num)
+        if num == "2":
+            self.entered_number = num
+            self.entry.delete(0, END)
+            self.entry.insert(0, num)
+        if num == "3":
+            self.entered_number = num
+            self.entry.delete(0, END)
+            self.entry.insert(0, num)
+        if num == "4":
+            self.entered_number = num
+            self.entry.delete(0, END)
+            self.entry.insert(0, num)
+        if num == "5":
+            self.entered_number = num
+            self.entry.delete(0, END)
+            self.entry.insert(0, num)
+        if num == "6":
+            self.entered_number = num
+            self.entry.delete(0, END)
+            self.entry.insert(0, num)
+        if num == "7":
+            self.entered_number = num
+            self.entry.delete(0, END)
+            self.entry.insert(0, num)
+        if num == "8":
+            self.entered_number = num
+            self.entry.delete(0, END)
+            self.entry.insert(0, num)
+        if num == "9":
             self.entered_number = num
             self.entry.delete(0, END)
             self.entry.insert(0, num)
