@@ -114,39 +114,39 @@ class CalcGUI:
             self.entered_number = num
             self.entry.delete(0, END)
             self.entry.insert(0, num)
-        if num == "1":
+        elif num == "1":
             self.entered_number = num
             self.entry.delete(0, END)
             self.entry.insert(0, num)
-        if num == "2":
+        elif num == "2":
             self.entered_number = num
             self.entry.delete(0, END)
             self.entry.insert(0, num)
-        if num == "3":
+        elif num == "3":
             self.entered_number = num
             self.entry.delete(0, END)
             self.entry.insert(0, num)
-        if num == "4":
+        elif num == "4":
             self.entered_number = num
             self.entry.delete(0, END)
             self.entry.insert(0, num)
-        if num == "5":
+        elif num == "5":
             self.entered_number = num
             self.entry.delete(0, END)
             self.entry.insert(0, num)
-        if num == "6":
+        elif num == "6":
             self.entered_number = num
             self.entry.delete(0, END)
             self.entry.insert(0, num)
-        if num == "7":
+        elif num == "7":
             self.entered_number = num
             self.entry.delete(0, END)
             self.entry.insert(0, num)
-        if num == "8":
+        elif num == "8":
             self.entered_number = num
             self.entry.delete(0, END)
             self.entry.insert(0, num)
-        if num == "9":
+        else:
             self.entered_number = num
             self.entry.delete(0, END)
             self.entry.insert(0, num)
